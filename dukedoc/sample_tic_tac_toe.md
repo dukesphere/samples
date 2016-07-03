@@ -2,7 +2,7 @@
 title: Tic-tac-toe
 keywords: testDuke, retestDuke, etcDuke
 last_updated: July 2, 2016
-summary: "How to play tic-tac-toe"
+summary: "Sample explaining how to play tic-tac-toe"
 sidebar: dukedocs_sidebar
 permalink: /duke_tic_tac_toe/
 ---

@@ -3,7 +3,7 @@ title: REST vs. SOAP
 tags: [sampleTagDuke, sampleTag2Duke]
 keywords: testDuke, retestDuke, etcDuke
 last_updated: "June 30, 2016"
-summary: "Writing sample contrasting My Company's REST and SOAP APIs"
+summary: "Sample contrasting My Company's REST and SOAP APIs"
 sidebar: dukedocs_sidebar
 permalink: /duke_rest_vs_soap/
 ---
