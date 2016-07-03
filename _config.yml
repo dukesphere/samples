@@ -6,13 +6,13 @@ baseurl: "/sduke_samples"
 # any subdirectory that appears after the domain where you're publishing your site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
-topnav_title: Jekyll Documentation Theme
+topnav_title: S. Duke 
 # this appears on the top navigation bar next to the home button
-site_title: Jekyll theme for designers
+site_title: Modified Jekyll theme
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-company_name: Your company
+company_name: Dukesphere
 # this appears in the footer
-github_editme_path: dukesphere/sduke_samples/blob/gh-pages
+github_editme_path: dukesphere/sduke_samples
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 disqus_shortname: dukesphere
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
@@ -60,7 +60,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: product1_sidebar
   -
     scope:
       path: ""

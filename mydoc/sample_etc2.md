@@ -1,15 +1,15 @@
 ---
-title: Duke test
+title: Etc2
 tags: [sampleTagDuke, sampleTag2Duke]
 keywords: testDuke, retestDuke, etcDuke
 last_updated: June 28th, 2016
 summary: "Duke testing new page for docs."
-sidebar: mydoc_sidebar
-permalink: /mydoc_duke/
+sidebar: product1_sidebar
+permalink: /duke_etc2/
 ---
 
 
-Hello. Duke is testing here.
+Hello. Duke is testing ETC2 here.
 
 * a
 * bullet

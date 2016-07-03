@@ -28,10 +28,6 @@ entries:
       type: homepage
       output: web, pdf
 
-    - title: Duke test
-      url: /mydoc_duke/
-      output: web, pdf
-
     - title: 5.0 Release notes
       url: /mydoc_release_notes_50/
       output: web, pdf
