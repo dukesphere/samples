@@ -1,14 +1,7 @@
 allowed-tags:
-  - getting_started
-  - content_types
-  - navigation
-  - formatting
-  - publishing
-  - single_sourcing
-  - special_layouts
-  - collaboration
-  - news
-  - troubleshooting
-  - mobile
-  - sampleTagDuke
-  - sampleTag2Duke
+  - duke_api_ref
+  - duke_cv
+  - duke_rest_vs_soap
+  - duke_sdk_overview
+  - duke_tic_tac_toe
+  - sample_api_ref
