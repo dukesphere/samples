@@ -18,16 +18,16 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: SDK Overview
-      url: /duke_sdk_overview/
+    - title: API Reference
+      url: /duke_api_ref/
       output: web, pdf
-    
+
     - title: REST vs. SOAP
       url: /duke_rest_vs_soap/
       output: web, pdf
 
-    - title: API Reference
-      url: /duke_api_ref/
+    - title: SDK Overview
+      url: /duke_sdk_overview/
       output: web, pdf
     
     - title: Tic-Tac-Toe

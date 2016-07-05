@@ -74,17 +74,17 @@ University of Georgia, Athens, GA
 
 ---
 
-### Tools and Technologies {#professional_development}
+### Tools and Technologies {#tools_tech}
 
 I have worked with many over the years, including these:
 
  * Mac, Windows, Linux (Ubuntu)
- * XML editors (for Docbook and DITA XML), various wikis (Confluence, etc.), Word
+ * XML editors (for Docbook and DITA XML), Word, various wikis (Confluence, etc.)
  * Visio, Gimp, and similar
  * XML, HTML, XSLT, CSS, Markdown
- * Bug tracking, source control, and continuous build integration systems
+ * Bug tracking, source control, and continuous build integration systems (Jenkins, etc.)
  * Javadocs, Doxygen, Adivo Techwriter
- * Various programming languages
+ * Various programming languages (Java, JavaScript, C++, Ruby, Perl)
 
 For endorsements of my work, please see my profile on LinkedIn 
 at <https://www.linkedin.com/in/staceyduke>.
