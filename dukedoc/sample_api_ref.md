@@ -9,11 +9,7 @@ permalink: /duke_api_ref/
 
 ### Overview
 
-The CodeChecker API allows you write web applications and scripts that communicate with 
-the CodeChecker database. This Simple Object Access Protocol (SOAP) API uses an XML 
-format for messages that are transported to and from the database server.
-
-The API allows you to create, delete, retrieve, and modify of various objects (such as 
+The CodeChecker API allows you to create, delete, retrieve, and modify of various objects (such as 
 users, user groups, and so on) in the CodeChecker database. Many of these objects are
 also editable through the configuration screens within the CodeChecker UI and through 
 various CodeChecker commands. For example, you can create users and user groups through
@@ -23,8 +19,8 @@ can manage defect data through the `cc-manage` command (see the
 
 ### Audience
 
-This reference assumes that you are familiar with common [CodeChecker terms](#glossary) 
-and that you have these skills:
+This reference assumes that you are familiar with common 
+[CodeChecker terms](#glossary) and that you have these skills:
 
 * Knowledge of web services and WSDL files
 
@@ -34,24 +30,26 @@ and that you have these skills:
 
 * Knowledge of a language that supports SOAP bindings
 
-  Examples: Perl, Python, C/C++, Java, C#.
+  Examples: Perl, Python, C/C++, Java, C#
 
 ### Getting Started
 
 To get started with the API:
 
- 1. [Download](#downloading) the WSDL files for the services. 
+ 1. [Download](#downloading) the WSDL file for the CodeChecker service. 
 
  2. [Run](#running) the sample application.
 
- 3. Create scripts for the API requests and responses you need to handle.
+ 3. Create scripts or a web applications for the API requests and responses you need 
+    to handle.
 
-Your scripts require a SOAP library (for example, SOAP::Lite with Perl or suds with 
-Python).
+    Your scripts require a SOAP library (for example, SOAP::Lite with Perl or suds 
+    with Python).
 
-**Tip:** You can familiarize yourself with methods in the API by using SOAP directly. 
-To practice using SOAP to generate API requests, view responses, and troubleshoot your 
-scripts, see our (see the [developer forum posting](../placeholder)) on this topic.
+**Tip:** You can familiarize yourself with methods in the API by using SOAP directly,
+for example, with [SoapUI](https://www.soapui.org/). To practice using SOAP to generate 
+API requests, view responses, and troubleshoot your scripts, see our 
+[developer forum posting](../placeholder) on this topic.
 
 Note that method documentation in this API reference provides examples of SOAP-based 
 requests and responses. For example, see the sample SOAP requests and responses to 
@@ -90,23 +88,23 @@ To run the sample web Services client application:
 1. Meet prerequisites:
 
    * JDK 1.8 is installed on your system, and its `bin` directory is in your path.
-   * You know the address of the CodeChecker server and the administrator password.
-   * CodeChecker is running.
+   * You know the URI (`<server-address>:<server-port>`) of the CodeChecker UI and 
+     the administrator password.
+   * The CodeChecker UI is running.
 
-2. Locate and extract the sample from `api_example.zip`:
+2. Extract the sample from `api_example.zip`, a file within the 
+   CodeChecker installation directory. 
 
-   * On Linux, one of the following:
+   * On Linux:
 
      ```
      <install_dir>/doc/en/api/example/api_example.zip
-     <install_dir>/doc/ja/api/example/api_example.zip
      ```
 
-   * On Windows, one of the following:
+   * On Windows:
    
      ```
      <install_dir>\doc\en\api\example\api_example.zip
-     <install_dir>\doc\ja\api\example\api_example.zip
      ```
      
 3. Go to the extracted folder named `api_example`.
@@ -185,14 +183,14 @@ Create a CodeChecker user.
 
 #### Method: createWidget
 
-Create a [widget](#widget). You can do lots of fun things with widgets, like dancing and 
-bouncing around. 
+Create a [widget](#widget). You can do a lot of cool things with widgets. You will need
+to use your imagination. This is just a dummy entry for this writing sample.
 
 **Parameters: createWidget**
 
-| Name             | Description                        | Type    |
-|------------------+------------------------------------+---------|
-| properties       | Cool properties for widgets.       | DataObj |
+| Name             | Description                            | Type          |
+|------------------+----------------------------------------+---------------|
+| properties       | Cool properties for widgets.           | widgetDataObj |
 
 #### Data object: widgetDataObject
 
@@ -201,6 +199,7 @@ bouncing around.
 | Name        | Description                                                   | Type    |
 |-------------+---------------------------------------------------------------+---------|
 | name        | User-specified name for the widget.                           | string  |
+| cool        | Some cool property. See [Cool Constants](#cool).              | string  |
 | showInUI    | Display widget in the CodeChecker UI (`true`) or not (`false`)| boolean |
 
 ```
@@ -210,9 +209,11 @@ bouncing around.
    <soapenv:Body>
       <vX:createWidget>
          <widgetSpec>
-            <widgetName>myWidget</widgetName>
-            <widgetType>STRING</widgetType>
-            <description>myWidget STRING type description</description>
+            <name>myWidget</widgetName>
+            <cool>cool1</cool>
+            <cool>cool2</cool>
+            <cool>cool3</cool>
+            <cool>cool4</cool>
             <showInUI>true</showInUI>
          </widgetSpec>
       </vX:createWidget>
@@ -233,19 +234,21 @@ bouncing around.
 	
 Enumerations and string-based values that are valid for specified fields and parameters.
 
-#### Role Type  (roleTypeDataObj.type)
+#### Role Type  (roleTypeDataObj.type) {#roleTypeDataObj}
 
 | Role Type  | Description                        |
 |------------+------------------------------------|
 | group      | Role that is assigned to a group.  |
 | user       | Role that is assigned to a user.   |
 
-#### Some Other Type
+#### Cool Constants {#cool}
 
 | Some Type   | Description                       |
 |-------------+-----------------------------------|
-| name1       | Description of name1.             |
-| name2       | Description of name2.             |
+| cool1       | Description of property cool1.    |
+| cool2       | Description of property cool2.    |
+| cool3       | Description of property cool4.    |
+| cool4       | Description of property cool4.    |
 	
 ### Error Codes {#errorCodes}
 	
@@ -304,7 +307,7 @@ Snapshot
 : Copy of the state of a code base at the date and time it was analyzed.
 
 Widget <a name="widget"/>
-: Some really cool thing for your app.
+: Some really cool thing for the CodeChecker UI.
 
 Term 4
 : Definition of term here.
