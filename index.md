@@ -4,7 +4,7 @@ sidebar: dukedocs_sidebar
 type: homepage
 ---
 
-Hi there! Howdy! Hello! 
+Hi there! Howdy! Hellooooooo! 
 
 My name is Stacey Duke. I've been working as a tech writer for a number of years.
 
