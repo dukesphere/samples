@@ -295,22 +295,6 @@ Authentication errors produce a error message without an error code. Example:
  | 1004       | Password must not be empty. |
  | 1005       | Another error message here. |
  | 1006       | Another error message here. |
+ 
 
-### Glossary {#glossary}
-	
-Definitions of terms used in this API. 
-
-Channel <a name="channel"/>
-: Sequence of snapshots of analysis results on a given code base.
-
-Snapshot
-: Copy of the state of a code base at the date and time it was analyzed.
-
-Widget <a name="widget"/>
-: Some really cool thing for the CodeChecker UI.
-
-Term 4
-: Definition of term here.
-
-Term 5
-: Definition of term here.
+{% include glossary.md %}

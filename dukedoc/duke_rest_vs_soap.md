@@ -69,7 +69,7 @@ A SOAP web service provides a well-defined interface in the form of a WSDL (Web 
 Description Language) file that serves as a "contract" between the sender and receiver of 
 messages. To gain access to that interface (and to complex data types it references 
 through an XML schema, or XSD), you need the URI to the WSDL file (for example, 
-`http://abcd.company.com:8080/ws/v1/abcdservice?wsdl`). 
+[`http://abcd.company.com:8080/ws/v1/abcdservice?wsdl`](../placeholder)). 
 
 The WSDL is machine-readable, so Java tools like `wsimport` can use it to generate a set of 
 stub classes (and source files) for each method in the API. Other examples include SoapUI 
