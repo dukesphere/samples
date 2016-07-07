@@ -74,7 +74,7 @@ middle of the game.
 * Players must take turns, starting with the player who was selected 
 to go first. (See ["Preparing to play"](#preparation).)
 * The game ends when one player wins by getting _three in a row_ (see 
-"Object of the game") or when there is no longer a way to win 
+["Object of the game"](#winning) or when there is no longer a way to win 
 because it is impossible to get _three in a row_ anymore.
 
 **Example (no win possible):**
