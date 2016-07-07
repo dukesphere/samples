@@ -40,7 +40,7 @@ To get started with the API:
 
  2. [Run](#running) the sample application.
 
- 3. Create scripts or a web applications for the API requests and responses you need 
+ 3. Create scripts or a web application for the API requests and responses you need 
     to handle.
 
     Your scripts require a SOAP library (for example, SOAP::Lite with Perl or suds 
