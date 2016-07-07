@@ -205,7 +205,7 @@ the defects that HelloCodeCheck finds.
       The startup command is located in the CodeChecker `/bin` directory:
       
       ```
-      > cd install_dir_acme/bin 
+      > cd <install_dir>/bin 
       > ./start-cc
       ```
       
@@ -225,7 +225,7 @@ the defects that HelloCodeCheck finds.
    > <install_dir>/bin/send-stuff \
      --host <server_hostname> \
      --port <port_number> \
-     --name_omitted hello_widget \
+     --name hello_codecheck \
      --user admin \
      --dir my_dir
    ```
