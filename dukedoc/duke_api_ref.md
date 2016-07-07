@@ -55,10 +55,10 @@ Note that method documentation in this API reference provides examples of SOAP-b
 requests and responses. For example, see the sample SOAP requests and responses to 
 [createUser()](#createUser).
 
-#### Downloading the WSDL files {#downloading}
+#### Downloading the WSDL file {#downloading}
 
 SOAP includes XML descriptions of the message format and transport protocols, which are 
-available from the server in WSDL (Web Services Description Language) files here:
+available from the server in WSDL (Web Services Description Language) file here:
 
 Config service:
 
