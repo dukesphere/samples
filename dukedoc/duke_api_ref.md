@@ -72,7 +72,7 @@ find WSDLs for additional versions of the API at the following URL:
 `http://mycompany.domain:8080/ws`
 
 You should use the latest version of the API. For version information and changes to the 
-API, see [API History](../placeholder)). 
+API, see [API History](../placeholder). 
 
 #### Running the Sample Application {#running}
 
