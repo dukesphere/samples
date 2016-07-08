@@ -9,9 +9,9 @@ permalink: /duke_api_ref/
 
 ### Overview
 
-The CodeChecker API allows you to create, delete, retrieve, and modify of various objects (such as 
-users, user groups, and so on) in the CodeChecker database. Many of these objects are
-also editable through the configuration screens within the CodeChecker UI and through 
+The CodeChecker API allows you to create, delete, retrieve, and modify of various objects 
+(such as users, user groups, and so on) in the CodeChecker database. Many of these objects 
+are also editable through the configuration screens within the CodeChecker UI and through 
 various CodeChecker commands. For example, you can create users and user groups through
 the API or through the configuration UI (see the [User Guide](../placeholder)), and you 
 can manage defect data through the `cc-manage` command (see the 
@@ -59,8 +59,6 @@ requests and responses. For example, see the sample SOAP requests and responses 
 
 SOAP includes XML descriptions of the message format and transport protocols, which are 
 available from the server in WSDL (Web Services Description Language) file here:
-
-Config service:
 
 `http://<domain>:<port>/path/to/<latest_api_version>/config_service?wsdl`
 
