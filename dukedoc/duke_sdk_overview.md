@@ -1,8 +1,8 @@
 ---
-title: SDK Overview
+title: Getting Started with an SDK
 keywords: testDuke, retestDuke, etcDuke
-last_updated: June 30, 2016
-summary: "Sanitized sample of a Getting Started section for a proprietary SDK"
+last_updated: July 7, 2016
+summary: "Sanitized sample from a proprietary SDK doc"
 sidebar: dukedocs_sidebar
 permalink: /duke_sdk_overview/
 ---

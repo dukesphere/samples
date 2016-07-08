@@ -18,7 +18,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: API Reference
+    - title: API Reference excerpts
       url: /duke_api_ref/
       output: web, pdf
 
@@ -26,7 +26,7 @@ entries:
       url: /duke_rest_vs_soap/
       output: web, pdf
 
-    - title: SDK Overview
+    - title: Getting Started excerpts
       url: /duke_sdk_overview/
       output: web, pdf
     
