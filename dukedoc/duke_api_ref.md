@@ -183,13 +183,13 @@ Create a CodeChecker user.
 Create a [widget](#widget). You can do a lot of cool things with widgets. You will need
 to use your imagination. This is just a dummy entry for this writing sample.
 
-**Parameters: createWidget**
+**Parameters: createWidget** {#createWidget}
 
 | Name             | Description                            | Type          |
 |------------------+----------------------------------------+---------------|
-| properties       | Cool properties for widgets.           | widgetDataObj |
+| properties       | Cool properties for widgets.           | [widgetDataObj](#widgetDataObject) |
 
-#### Data object: widgetDataObject
+#### Data object: widgetDataObject {#widgetDataObject}
 
 **Parameters: widgetDataObj**
 
