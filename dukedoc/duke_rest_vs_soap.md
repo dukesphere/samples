@@ -82,7 +82,7 @@ examples.
 
 ### Response formats
 
-Our RESTful API reponses use a JSON format. A simple example might look like this:
+Our RESTful API responses use a JSON format. A simple example might look like this:
 
 ~~~
 {  "user": 
