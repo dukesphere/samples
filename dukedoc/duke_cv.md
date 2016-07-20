@@ -32,7 +32,7 @@ Coverity, San Francisco, CA (May 2010 - Feb. 2014)
 : Technical Writer
 : See Synopsys: Coverity was bought by Synopsys in Feb. 2014. 
 
-Dasient, San Francisco, CA (Dec. 2009 - Feb. 2010)
+Dasient, San Francisco, CA (Mar. 2009 - Apr. 2010)
 : Technical Writer (Contract position)
 : Documenting the installation and configuration of a security application. 
 
@@ -40,7 +40,7 @@ Sony Computer Entertainment America (SCEA), Foster City, CA (Dec. 2009 - Feb. 20
 : Technical Writer  (Contract position)
 : Providing Wiki-based operations documentation on Sony's Mediated Services system. 
 
-Dasient, San Francisco, CA (Nov. 2009 - Dec. 2010)
+Dasient, San Francisco, CA (Nov. 2009 - Dec. 2009)
 : Technical Writer (Contract position)
 : Creating a technical overview of Dasient's security product and working on documentation for administrators.
 
