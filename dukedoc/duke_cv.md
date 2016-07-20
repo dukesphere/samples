@@ -32,7 +32,7 @@ Coverity, San Francisco, CA (May 2010 - Feb. 2014)
 : Technical Writer
 : See Synopsys: Coverity was bought by Synopsys in Feb. 2014. 
 
-Dasient, San Francisco, CA (Mar. 2009 - Apr. 2010)
+Dasient, San Francisco, CA (Mar. 2010 - Apr. 2010)
 : Technical Writer (Contract position)
 : Documenting the installation and configuration of a security application. 
 
