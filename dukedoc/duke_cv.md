@@ -84,7 +84,7 @@ I have worked with many over the years, including these:
  * XML, HTML, XSLT, CSS, Markdown
  * Bug tracking, source control, and continuous build integration systems (Jenkins, etc.)
  * Javadocs, Doxygen, Adivo Techwriter
- * Various programming languages (Java, JavaScript, C++, Ruby, Perl)
+ * Various programming languages (Java, C++, Ruby, Python, jQuery)
 
 For endorsements of my work, please see my profile on LinkedIn 
 at <https://www.linkedin.com/in/staceyduke>.
