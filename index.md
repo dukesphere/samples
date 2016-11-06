@@ -1,5 +1,5 @@
 ---
-title: Hello there! 
+title: Hello! 
 sidebar: dukedocs_sidebar
 type: homepage
 ---
